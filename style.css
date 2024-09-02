@@ -1,0 +1,88 @@
+/* add css module styles here (optional) */
+
+.min-w-100 {
+    min-width: 100px !important;
+  }
+  
+  .max-w-100 {
+    max-width: 100px;
+  }
+  
+  .max-w-130 {
+    max-width: 130px;
+  }
+  
+  .color-panel {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .custom-label {
+    padding: 5px;
+  }
+  
+  /* .color-input-picker {
+    margin: 5px !important;
+    padding: 2px 5px !important;
+    border-radius: 5px !important;
+    border: 1px solid #CCCCCC !important;
+    background-color: #FFFFFF !important;
+  } */
+  
+  #color-input-picker {
+    display: flex;
+    border: 1px solid #CCCCCC;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 5px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    background-color: #FFFFFF !important
+  }
+  
+  .color-picker-label {
+    margin-bottom: 0px;
+  }
+  
+  .show-color-area {
+    cursor: pointer;
+    text-transform: uppercase !important;
+  }
+  
+  
+  #custom-color-picker {
+    background-color: #FFFFFF !important;
+    width: 30px !important;
+    height: 30px !important;
+    cursor: pointer !;
+  }
+  
+  #custom-color-pickerInput {
+    border: none !important;
+  }
+  
+  #custom-color-pickerInput:focus {
+    outline: none !important;
+  }
+  
+  input[type="color" i] {
+    appearance: auto;
+    inline-size: 25px;
+    block-size: 25px;
+    cursor: default;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-image: initial;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .disabled-picker {
+    opacity: 1;
+    pointer-events: none;
+    cursor: default;
+  }
+  
+  .opacity-04 {
+    opacity: 0.4 !important;
+  }
